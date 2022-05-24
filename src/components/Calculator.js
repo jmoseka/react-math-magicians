@@ -12,72 +12,36 @@ const Calculator = () => (
       </div>
 
       <div className="row">
-        <div className="col col-3">
-          AC
-        </div>
-        <div className="col col-3">
-          /
-        </div>
-        <div className="col col-3">
-          %
-        </div>
-        <div className="col col-3">
-          +
-        </div>
+        <button type="button" className="col-3">AC</button>
+        <button type="button" className="col-3">/</button>
+        <button type="button" className="col-3">%</button>
+        <button type="button" className="col-3">+</button>
       </div>
 
       <div className="row">
-        <div className="col col-3">
-          7
-        </div>
-        <div className="col col-3">
-          8
-        </div>
-        <div className="col col-3">
-          9
-        </div>
-        <div className="col col-3">
-          x
-        </div>
+        <button type="button" className="col-3">7</button>
+        <button type="button" className="col-3">8</button>
+        <button type="button" className="col-3">9</button>
+        <button type="button" className="col-3">x</button>
       </div>
 
       <div className="row">
-        <div className="col col-3">
-          4
-        </div>
-        <div className="col col-3">
-          5
-        </div>
-        <div className="col col-3">
-          6
-        </div>
-        <div className="col col-3">
-          -
-        </div>
+        <button type="button" className="col-3">4</button>
+        <button type="button" className="col-3">5</button>
+        <button type="button" className="col-3">6</button>
+        <button type="button" className="col-3">-</button>
       </div>
 
       <div className="row">
-        <div className="col col-3">
-          1
-        </div>
-        <div className="col col-3">
-          2
-        </div>
-        <div className="col col-3">
-          3
-        </div>
-        <div className="col col-3">
-          +
-        </div>
+        <button type="button" className="col-3">1</button>
+        <button type="button" className="col-3">2</button>
+        <button type="button" className="col-3">3</button>
+        <button type="button" className="col-3">+</button>
       </div>
 
       <div className="row">
-        <div className="col col-9">
-          0
-        </div>
-        <div className="col col-3">
-          =
-        </div>
+        <button type="button" className="col-9">0</button>
+        <button type="button" className="col-3">=</button>
       </div>
 
     </div>
