@@ -12,15 +12,15 @@
   color: white;
 }
 
-button:last-child {
-  background: #f3933c;
+button {
+  margin: 0;
+  padding: 15px;
+  border: none;
+  width: 100%;
+  border-right: 1px solid #b7b8bb;
+  border-bottom: 1px solid #b7b8bb;
 }
 
-button {
-    margin: 0;
-    padding: 15px;
-    border: none;
-    width: 100%;
-    border-right: 1px solid #b7b8bb;
-    border-bottom: 1px solid #b7b8bb;
+button:last-child {
+  background: #f3933c;
 }
