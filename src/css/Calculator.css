@@ -12,16 +12,6 @@
   color: white;
 }
 
-.col {
-  background: #e3e2e2;
-  text-align: center;
-  border-right: 1px solid #b7b8bb;
-  border-bottom: 1px solid #b7b8bb;
-  cursor: pointer;
-  margin: 0;
-  border: 0;
-}
-
 button:last-child {
   background: #f3933c;
 }
