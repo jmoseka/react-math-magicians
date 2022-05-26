@@ -1,18 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import React from 'react';
-import '../css/Calculator.css';
+import React, { PureComponent } from 'react';
 import calculate from '../logic/calculate';
+import '../css/Calculator.css';
 
-class Calculator extends React.Component {
+class Calculator extends PureComponent {
   constructor(props) {
     super(props);
-    this.btnClick = this.btnClick.bind(this);
     this.state = {};
+    this.btnClick = this.btnClick.bind(this);
   }
 
-  btnClick(event) {
-    this.setState((state) => calculate(state, event.target.innerText));
+  btnClick(e) {
+    this.setState((state) => calculate(state, e.target.innerText));
   }
 
   render() {
@@ -22,7 +22,7 @@ class Calculator extends React.Component {
         <div className="container col-10 col-md-4">
           <div className="row">
             <div className="col-12 screen-output">
-              {next || total}
+              {next || total || 0}
             </div>
           </div>
 
