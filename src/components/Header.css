@@ -1,23 +1,26 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 2rem 0;
-    background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.magician-color {
+  color: #d36a08;
 }
 
 .nav {
-    list-style: none;
-    display: flex;
-    
+  list-style: none;
+  display: flex;
 }
 
 .nav li {
-    font-size: 1.2rem;
-    margin-left: 1rem;
-    font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  font-weight: bold;
 }
 
-.v-line {
-    border: 1px solid black;
+.line {
+  border-right: 3px solid black;
+  margin-left: 20px;
 }

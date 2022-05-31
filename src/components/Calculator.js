@@ -14,9 +14,9 @@ function Calculator() {
 
   return (
     <div className="body">
-      <div className="container container-calc">
+      <div className="container container-calc mt-5">
         <div className="heading">
-          <h2>{'Let\'s do some Maths'}</h2>
+          <h3>{'Let\'s do some Maths'}</h3>
         </div>
         <div className="col-6">
           <div className="row">
