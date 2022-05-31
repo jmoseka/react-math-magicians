@@ -1,9 +1,14 @@
 .body {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
   font-size: 18px;
+}
+
+.container-calc {
+  margin-top: 8vh;
+  display: flex;
+  justify-content: space-between;
 }
 
 .screen-output {
