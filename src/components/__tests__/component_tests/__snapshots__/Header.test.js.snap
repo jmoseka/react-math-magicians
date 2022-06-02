@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<header
+  className="container"
+>
+  <h1>
+    Math
+     
+    <span
+      className="magician-color"
+    >
+      Magicians
+    </span>
+  </h1>
+  <ul
+    className="nav"
+  >
+    <li>
+      <a
+        href="/home"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <span
+      className="line"
+    />
+    <li>
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <span
+      className="line"
+    />
+    <li>
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</header>
+`;

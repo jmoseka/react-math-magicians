@@ -11,10 +11,9 @@ function App() {
       <div className="App container mx-5">
         <Header />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route exact path="/home" element={<Home />} />
           <Route path="/calculator" element={<Calculator />} />
           <Route path="/quote" element={<Quote />} />
-
         </Routes>
       </div>
     </BrowserRouter>
