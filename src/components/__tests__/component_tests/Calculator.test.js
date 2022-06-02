@@ -1,7 +1,8 @@
 import '@testing-library/jest-dom/extend-expect';
 import { cleanup } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Calculator from '../../calculator';
+// eslint-disable-next-line import/extensions
+import Calculator from '../../calculator.js';
 
 afterEach(() => {
   cleanup();
