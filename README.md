@@ -47,6 +47,10 @@ open http://localhost:3000/
 
 - GitHub: [@jmoseka](https://github.com/jmoseka)
 
+👤 **Hammed Adisa**
+
+- GitHub: [@AbuRayhaan](https://github.com/AbuRayhaan)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
