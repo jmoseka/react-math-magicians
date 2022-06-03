@@ -13,7 +13,7 @@ function Calculator() {
   const { next, total } = state;
 
   return (
-    <div className="body">
+    <div data-testid="calc-1" className="body">
       <div className="container container-calc mt-5">
         <div className="heading">
           <h3>{'Let\'s do some Maths'}</h3>
